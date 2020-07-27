@@ -61,7 +61,7 @@ test_day=datetime.datetime.strptime('2020-09-15 00:00:00','%Y-%m-%d %H:%M:%S')
 date2 =(test_day - bj_time).days
 desp = f"""
 ------
-### 现在时间：
+### 打卡时间：
 ```
 {bj_time.strftime("%Y-%m-%d %H:%M:%S %p")}
 ```
@@ -74,11 +74,11 @@ desp = f"""
 {date2}天
 ```
 
-### ⚡考研倒计时:
+### 考研倒计时:
 ```
 {date}天
 ```
-### 栋哥加油！！！！！
+### 加油！！！！！
 
 """
 
@@ -89,7 +89,7 @@ headers = {
 send_url = f"https://sc.ftqq.com/{SCKEY}.send"
 
 params = {
-    "text": f"完美校园健康打卡---{bj_time.strftime('%H:%M:%S')}",
+    "text": f"每日完美校园自动健康打卡",
     "desp": desp
 }
     
