@@ -29,7 +29,7 @@ jsons = {"businessType": "epmpics", "method": "submitUpInfo",
                      "areaStr": areaStr,
                      "reportdate": round(time.time()*1000), "customerid": "786", "deptid": deptId, "source": "alipay",
                      "templateid": "pneumonia", "stuNo": stuNum, "username": userName, "phonenum": phoneNum,
-                     "userid": userId, "updatainfo": [{"propertyname": "bodyzk", "value": "正常温度(小于37.3)"},
+                     "userid": userId, "updatainfo": [{"propertyname": "bodyzk", "value": "36.5"},
                                                           {"propertyname": "istouchcb", "value": "自己家中"},
                                                           {"propertyname": "sfwz2", "value": "内地学生"},
                                                           {"propertyname": "symptom", "value": "无"},
@@ -76,11 +76,8 @@ desp = f"""
 ```
 {date}天
 ```
+### 栋哥加油！！！！！
 
->
-> [GitHub项目地址](https://github.com/ReaJason/17wanxiaoCheckin-Actions) 
->
->期待你给项目的star✨
 """
 
 headers = {
