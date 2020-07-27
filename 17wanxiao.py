@@ -57,8 +57,8 @@ bj_time = now_time + datetime.timedelta(hours=8)
 test_day = datetime.datetime.strptime('2020-12-19 00:00:00','%Y-%m-%d %H:%M:%S')
 date = (test_day - bj_time).days
 
-stu_day=datetime.datetime.strptime('2020-09-15 00:00:00','%Y-%m-%d %H:%M:%S')
-date2 =(stut_day - bj_time).days
+test_day=datetime.datetime.strptime('2020-09-15 00:00:00','%Y-%m-%d %H:%M:%S')
+date2 =(test_day - bj_time).days
 desp = f"""
 ------
 ### 现在时间：
