@@ -26,7 +26,7 @@ jobs:
          
     - name: HealthCheckin
       run: |
-        python3 17wanxiao.py <<EOF
+        python3 test01.py <<EOF
         ${{secrets.TEXT}}
         ${{secrets.DEPTID}}
         ${{secrets.ADDRESS}}
