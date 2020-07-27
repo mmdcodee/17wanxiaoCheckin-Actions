@@ -4,7 +4,7 @@ import json
 import requests
 
 
-check_url = "https://reportedh5.17wanxiao.com/sass/api/epmpics"
+check_url = "https://reportedh5.test01.com/sass/api/epmpics"
 
 text = input()
 deptId = eval(input())
